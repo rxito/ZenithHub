@@ -1,5 +1,5 @@
-local TweenService = game:GetService("TweenService")
-local CoreGui = game:GetService("CoreGui")
+local TweenService = cloneref(game:GetService("TweenService"))
+local CoreGui = cloneref(game:GetService("CoreGui"))
 
 if CoreGui:FindFirstChild("OldScriptLoaderUI") then
     CoreGui:FindFirstChild("OldScriptLoaderUI"):Destroy()
